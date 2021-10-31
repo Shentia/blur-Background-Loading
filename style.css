@@ -1,0 +1,38 @@
+/**
+ * @author Ahmadreza Shamimi
+ * @email shentiaspirit@hotmail.com
+ * @create date 2021-10-31 16:47:21
+ * @modify date 2021-10-31 16:47:21
+ * @desc [description]
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.bg {
+  background: url("https://images.unsplash.com/photo-1635598787672-4b97e956002b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=387&amp;")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
